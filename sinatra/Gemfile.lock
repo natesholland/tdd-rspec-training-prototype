@@ -1,3 +1,8 @@
+PATH
+  remote: ../gem
+  specs:
+    mhem (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,6 +25,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (10.4.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -57,7 +63,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  mhem!
   pry
+  rake
   rerun
   rspec
   sinatra
